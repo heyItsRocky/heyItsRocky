@@ -1,195 +1,19 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-    <img alt="Rakshith S — IoT & Cybersecurity" src="./dark.svg">
+    <img alt="Rakshith S — IoT & Cybersecurity" src="./dark.svg" style="width:100%; max-width:980px; margin:0 auto; display:block;">
   </picture>
 </p>
 
-<style>
-  :root {
-    --rk-purple: #7C3AED;
-    --rk-cyan: #22D3EE;
-    --rk-emerald: #10B981;
-    --rk-bg: #0B1120;
-    --rk-surface: #111827;
-    --rk-border: #243047;
-    --rk-text: #E5E7EB;
-    --rk-muted: #94A3B8;
-  }
+<div style="max-width:1100px; margin:0 auto; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
 
-  .rk-wrap {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-
-  .rk-hero {
-    width: 100%;
-    max-width: 980px;
-    margin: 0 auto;
-    display: block;
-  }
-
-  .rk-bio {
-    margin: 28px auto 10px;
-    padding: 0 16px;
-    text-align: center;
-  }
-
-  .rk-bio blockquote {
-    margin: 0 auto 18px;
-    padding: 0;
-    border-left: 0;
-    color: var(--rk-text);
-    font-size: 1.12rem;
-    font-weight: 600;
-  }
-
-  .rk-terminal {
-    max-width: 760px;
-    margin: 0 auto;
-    color: var(--rk-cyan);
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-size: 0.94rem;
-    line-height: 1.8;
-    text-align: left;
-  }
-
-  .rk-line {
-    position: relative;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 0;
-    border-right: 2px solid var(--rk-cyan);
-    animation:
-      rk-type 3.8s steps(52, end) forwards,
-      rk-cursor 0.75s step-end infinite;
-  }
-
-  .rk-line + .rk-line {
-    animation:
-      rk-type-2 4.4s steps(48, end) 3.8s forwards,
-      rk-cursor 0.75s step-end infinite;
-  }
-
-  @keyframes rk-type {
-    from { width: 0; }
-    to { width: 100%; }
-  }
-
-  @keyframes rk-type-2 {
-    from { width: 0; }
-    to { width: 100%; }
-  }
-
-  @keyframes rk-cursor {
-    50% { border-color: transparent; }
-  }
-
-  .rk-card {
-    background: var(--rk-surface);
-    border: 1px solid var(--rk-border);
-    border-left: 3px solid var(--rk-purple);
-    border-radius: 10px;
-    padding: 18px;
-    vertical-align: top;
-  }
-
-  .rk-card-cyan {
-    border-left-color: var(--rk-cyan);
-  }
-
-  .rk-card-emerald {
-    border-left-color: var(--rk-emerald);
-  }
-
-  .rk-card h3 {
-    margin-top: 0;
-    margin-bottom: 8px;
-  }
-
-  .rk-card p {
-    margin-bottom: 0;
-    line-height: 1.65;
-  }
-
-  .rk-section {
-    margin-top: 42px;
-  }
-
-  .rk-section h2 {
-    margin-bottom: 18px;
-  }
-
-  .rk-stack-label {
-    color: var(--rk-cyan);
-    font-weight: 700;
-    margin: 22px 0 9px;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
-
-  .rk-project-card {
-    background: var(--rk-surface);
-    border: 1px solid var(--rk-border);
-    border-radius: 10px;
-    padding: 20px;
-    height: 100%;
-    vertical-align: top;
-  }
-
-  .rk-project-card h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-
-  .rk-project-card p {
-    line-height: 1.6;
-  }
-
-  .rk-project-card a {
-    font-weight: 700;
-  }
-
-  .rk-project-meta {
-    margin-top: 14px;
-  }
-
-  .rk-connect {
-    text-align: center;
-    margin: 20px 0 8px;
-  }
-
-  .rk-footer {
-    margin-top: 46px;
-    padding-top: 18px;
-    text-align: center;
-    color: var(--rk-muted);
-  }
-
-  @media (max-width: 700px) {
-    .rk-card,
-    .rk-project-card {
-      display: block;
-      width: auto !important;
-    }
-
-    .rk-terminal {
-      font-size: 0.8rem;
-      overflow-x: auto;
-      padding-bottom: 4px;
-    }
-  }
-</style>
-
-<div class="rk-wrap">
-
-<div class="rk-bio">
+<div style="margin:28px auto 10px; padding:0 16px; text-align:center;">
 
 > **"Not a genius. Just too stubborn to give up on bad ideas."**
 
-<div class="rk-terminal">
-  <div class="rk-line">IoT Security Researcher · Building SENTINEL 2.0</div>
-  <div class="rk-line">Full-Stack Developer · ESP32 to React and back</div>
+<div style="max-width:760px; margin:0 auto; color:#22D3EE; font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; font-size:0.94rem; line-height:1.8; text-align:left;">
+  <div><span style="color:#7C3AED;">$</span> <span style="color:#E5E7EB;">IoT Security Researcher · Building SENTINEL 2.0</span></div>
+  <div><span style="color:#7C3AED;">$</span> <span style="color:#E5E7EB;">Full-Stack Developer · ESP32 to React and back</span></div>
 </div>
 
 </div>
@@ -200,23 +24,23 @@
 
 <table width="100%" cellspacing="14" cellpadding="0">
   <tr>
-    <td width="33.33%" class="rk-card">
-      <h3>⚡ IoT + Security</h3>
-      <p>
+    <td width="33.33%" style="background:#111827; border:1px solid #243047; border-left:3px solid #7C3AED; border-radius:10px; padding:18px; vertical-align:top;">
+      <h3 style="margin-top:0; margin-bottom:8px;">⚡ IoT + Security</h3>
+      <p style="margin-bottom:0; line-height:1.65;">
         I build honeypots that think. ESP32 devices running Cowrie,
         MQTT pipelines, and 7+ ML models detecting anomalies in real time.
       </p>
     </td>
-    <td width="33.33%" class="rk-card rk-card-cyan">
-      <h3>🌐 Full-Stack</h3>
-      <p>
+    <td width="33.33%" style="background:#111827; border:1px solid #243047; border-left:3px solid #22D3EE; border-radius:10px; padding:18px; vertical-align:top;">
+      <h3 style="margin-top:0; margin-bottom:8px;">🌐 Full-Stack</h3>
+      <p style="margin-bottom:0; line-height:1.65;">
         React 19, TypeScript, FastAPI, Docker — I build things that work
         end-to-end. From database schema to pixel-perfect UI.
       </p>
     </td>
-    <td width="33.33%" class="rk-card rk-card-emerald">
-      <h3>🧠 Data + ML</h3>
-      <p>
+    <td width="33.33%" style="background:#111827; border:1px solid #243047; border-left:3px solid #10B981; border-radius:10px; padding:18px; vertical-align:top;">
+      <h3 style="margin-top:0; margin-bottom:8px;">🧠 Data + ML</h3>
+      <p style="margin-bottom:0; line-height:1.65;">
         PyTorch, scikit-learn, pandas. I train models on real data —
         not toy datasets. Competition-grade, production-ready.
       </p>
@@ -334,17 +158,17 @@
 
 <table width="100%" cellspacing="14" cellpadding="0">
   <tr>
-    <td width="33.33%" class="rk-project-card">
-      <h3>
-        <a href="https://github.com/heyItsRocky/SENTINEL_2.O">SENTINEL 2.0</a>
+    <td width="33.33%" style="background:#111827; border:1px solid #243047; border-radius:10px; padding:20px; height:100%; vertical-align:top;">
+      <h3 style="margin-top:0; margin-bottom:10px;">
+        <a href="https://github.com/heyItsRocky/SENTINEL_2.O" style="font-weight:700;">SENTINEL 2.0</a>
       </h3>
 
-      <p>
+      <p style="line-height:1.6;">
         IoT security honeypot with real-time ML anomaly detection.
         My flagship build — hardware, telemetry, deception, and intelligence in one system.
       </p>
 
-      <div class="rk-project-meta">
+      <div style="margin-top:14px;">
         <img src="https://img.shields.io/badge/Python-1a1a2e?style=for-the-badge&logo=python&logoColor=white&color=1a1a2e" alt="Python">
         <img src="https://img.shields.io/badge/ESP32-1a1a2e?style=for-the-badge&logo=espressif&logoColor=white&color=1a1a2e" alt="ESP32">
         <img src="https://img.shields.io/badge/MQTT-1a1a2e?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white&color=1a1a2e" alt="MQTT">
@@ -353,20 +177,20 @@
 
       <br>
 
-      <a href="https://github.com/heyItsRocky/SENTINEL_2.O">View Repo →</a>
+      <a href="https://github.com/heyItsRocky/SENTINEL_2.O" style="font-weight:700;">View Repo →</a>
     </td>
 
-    <td width="33.33%" class="rk-project-card">
-      <h3>
-        <a href="https://github.com/heyItsRocky?tab=repositories">SIH Portal</a>
+    <td width="33.33%" style="background:#111827; border:1px solid #243047; border-radius:10px; padding:20px; height:100%; vertical-align:top;">
+      <h3 style="margin-top:0; margin-bottom:10px;">
+        <a href="https://github.com/heyItsRocky?tab=repositories" style="font-weight:700;">SIH Portal</a>
       </h3>
 
-      <p>
+      <p style="line-height:1.6;">
         Smart India Hackathon team collaboration platform built around a modern,
         scalable frontend architecture and reusable component system.
       </p>
 
-      <div class="rk-project-meta">
+      <div style="margin-top:14px;">
         <img src="https://img.shields.io/badge/React-1a1a2e?style=for-the-badge&logo=react&logoColor=white&color=1a1a2e" alt="React">
         <img src="https://img.shields.io/badge/TypeScript-1a1a2e?style=for-the-badge&logo=typescript&logoColor=white&color=1a1a2e" alt="TypeScript">
         <img src="https://img.shields.io/badge/Vite-1a1a2e?style=for-the-badge&logo=vite&logoColor=white&color=1a1a2e" alt="Vite">
@@ -375,20 +199,20 @@
 
       <br>
 
-      <a href="https://github.com/heyItsRocky?tab=repositories">View Repo →</a>
+      <a href="https://github.com/heyItsRocky?tab=repositories" style="font-weight:700;">View Repo →</a>
     </td>
 
-    <td width="33.33%" class="rk-project-card">
-      <h3>
-        <a href="https://github.com/heyItsRocky/Datathon-2026-ULTRON">KSP Datathon</a>
+    <td width="33.33%" style="background:#111827; border:1px solid #243047; border-radius:10px; padding:20px; height:100%; vertical-align:top;">
+      <h3 style="margin-top:0; margin-bottom:10px;">
+        <a href="https://github.com/heyItsRocky/Datathon-2026-ULTRON" style="font-weight:700;">KSP Datathon</a>
       </h3>
 
-      <p>
+      <p style="line-height:1.6;">
         Karnataka State Police crime data analysis focused on extracting patterns,
         building models, and turning real-world data into useful intelligence.
       </p>
 
-      <div class="rk-project-meta">
+      <div style="margin-top:14px;">
         <img src="https://img.shields.io/badge/Python-1a1a2e?style=for-the-badge&logo=python&logoColor=white&color=1a1a2e" alt="Python">
         <img src="https://img.shields.io/badge/pandas-1a1a2e?style=for-the-badge&logo=pandas&logoColor=white&color=1a1a2e" alt="pandas">
         <img src="https://img.shields.io/badge/scikit--learn-1a1a2e?style=for-the-badge&logo=scikitlearn&logoColor=white&color=1a1a2e" alt="scikit-learn">
@@ -397,7 +221,7 @@
 
       <br>
 
-      <a href="https://github.com/heyItsRocky/Datathon-2026-ULTRON">View Repo →</a>
+      <a href="https://github.com/heyItsRocky/Datathon-2026-ULTRON" style="font-weight:700;">View Repo →</a>
     </td>
   </tr>
 </table>
@@ -408,9 +232,9 @@
 
 <table width="100%" cellspacing="14" cellpadding="0">
   <tr>
-    <td width="50%" class="rk-card rk-card-cyan">
-      <h3>🤖 Gesture-Controlled Face-Tracking Robot</h3>
-      <p>
+    <td width="50%" style="background:#111827; border:1px solid #243047; border-left:3px solid #22D3EE; border-radius:10px; padding:18px; vertical-align:top;">
+      <h3 style="margin-top:0; margin-bottom:8px;">🤖 Gesture-Controlled Face-Tracking Robot</h3>
+      <p style="margin-bottom:0; line-height:1.65;">
         A physical robotics system combining computer vision, gesture input,
         Arduino control, and servo actuation.
       </p>
@@ -421,9 +245,9 @@
       </p>
     </td>
 
-    <td width="50%" class="rk-card rk-card-emerald">
-      <h3>☀️ Surya-Astra</h3>
-      <p>
+    <td width="50%" style="background:#111827; border:1px solid #243047; border-left:3px solid #10B981; border-radius:10px; padding:18px; vertical-align:top;">
+      <h3 style="margin-top:0; margin-bottom:8px;">☀️ Surya-Astra</h3>
+      <p style="margin-bottom:0; line-height:1.65;">
         Interactive 3D solar system visualization built for the web using
         React, TypeScript, and WebGL-powered rendering.
       </p>
@@ -436,9 +260,9 @@
   </tr>
 
   <tr>
-    <td width="50%" class="rk-card">
-      <h3>💳 x402 Mini-Store</h3>
-      <p>
+    <td width="50%" style="background:#111827; border:1px solid #243047; border-left:3px solid #7C3AED; border-radius:10px; padding:18px; vertical-align:top;">
+      <h3 style="margin-top:0; margin-bottom:8px;">💳 x402 Mini-Store</h3>
+      <p style="margin-bottom:0; line-height:1.65;">
         Web3 micropayment gateway exploring machine-to-machine payments with
         FastAPI, Algorand, Docker, and the x402 payment protocol.
       </p>
@@ -449,9 +273,9 @@
       </p>
     </td>
 
-    <td width="50%" class="rk-card">
-      <h3>🔬 What I'm really interested in</h3>
-      <p>
+    <td width="50%" style="background:#111827; border:1px solid #243047; border-left:3px solid #7C3AED; border-radius:10px; padding:18px; vertical-align:top;">
+      <h3 style="margin-top:0; margin-bottom:8px;">🔬 What I'm really interested in</h3>
+      <p style="margin-bottom:0; line-height:1.65;">
         Systems that sit at the edge, collect messy real-world signals,
         reason about what they see, and react without needing everything
         to live in the cloud.
@@ -481,7 +305,7 @@
 
 ## `./connect`
 
-<p align="center">
+<p align="center" style="text-align:center; margin:20px 0 8px;">
   <a href="https://github.com/heyItsRocky">
     <img src="https://img.shields.io/badge/GitHub-heyItsRocky-1a1a2e?style=flat-square&logo=github&logoColor=white" alt="GitHub">
   </a>
@@ -499,7 +323,7 @@
 
 ---
 
-<div class="rk-footer">
+<div style="margin-top:46px; padding-top:18px; text-align:center; color:#94A3B8;">
 
 <p align="center">
   <em>Building things that talk to hardware and think for themselves.</em>
