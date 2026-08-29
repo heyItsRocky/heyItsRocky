@@ -1,81 +1,509 @@
-<a href="https://github.com/heyItsRocky">
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-    <img alt="Rakshith S — GitHub Profile" src="./dark.svg" width="100%">
+    <img alt="Rakshith S — IoT & Cybersecurity" src="./dark.svg">
   </picture>
-</a>
-
-<p align="center">
-  <samp>building systems where software meets hardware.</samp>
 </p>
 
-<p align="center">
-  <a href="https://github.com/heyItsRocky?tab=followers"><img src="https://img.shields.io/github/followers/heyItsRocky?style=flat-square&label=followers&logo=github" alt="GitHub followers"></a>
-  <a href="https://github.com/heyItsRocky?tab=repositories"><img src="https://img.shields.io/github/stars/heyItsRocky?affiliations=OWNER&style=flat-square&label=stars&logo=github" alt="GitHub stars"></a>
+<style>
+  :root {
+    --rk-purple: #7C3AED;
+    --rk-cyan: #22D3EE;
+    --rk-emerald: #10B981;
+    --rk-bg: #0B1120;
+    --rk-surface: #111827;
+    --rk-border: #243047;
+    --rk-text: #E5E7EB;
+    --rk-muted: #94A3B8;
+  }
+
+  .rk-wrap {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .rk-hero {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .rk-bio {
+    margin: 28px auto 10px;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+  .rk-bio blockquote {
+    margin: 0 auto 18px;
+    padding: 0;
+    border-left: 0;
+    color: var(--rk-text);
+    font-size: 1.12rem;
+    font-weight: 600;
+  }
+
+  .rk-terminal {
+    max-width: 760px;
+    margin: 0 auto;
+    color: var(--rk-cyan);
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.94rem;
+    line-height: 1.8;
+    text-align: left;
+  }
+
+  .rk-line {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    border-right: 2px solid var(--rk-cyan);
+    animation:
+      rk-type 3.8s steps(52, end) forwards,
+      rk-cursor 0.75s step-end infinite;
+  }
+
+  .rk-line + .rk-line {
+    animation:
+      rk-type-2 4.4s steps(48, end) 3.8s forwards,
+      rk-cursor 0.75s step-end infinite;
+  }
+
+  @keyframes rk-type {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  @keyframes rk-type-2 {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  @keyframes rk-cursor {
+    50% { border-color: transparent; }
+  }
+
+  .rk-card {
+    background: var(--rk-surface);
+    border: 1px solid var(--rk-border);
+    border-left: 3px solid var(--rk-purple);
+    border-radius: 10px;
+    padding: 18px;
+    vertical-align: top;
+  }
+
+  .rk-card-cyan {
+    border-left-color: var(--rk-cyan);
+  }
+
+  .rk-card-emerald {
+    border-left-color: var(--rk-emerald);
+  }
+
+  .rk-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+
+  .rk-card p {
+    margin-bottom: 0;
+    line-height: 1.65;
+  }
+
+  .rk-section {
+    margin-top: 42px;
+  }
+
+  .rk-section h2 {
+    margin-bottom: 18px;
+  }
+
+  .rk-stack-label {
+    color: var(--rk-cyan);
+    font-weight: 700;
+    margin: 22px 0 9px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .rk-project-card {
+    background: var(--rk-surface);
+    border: 1px solid var(--rk-border);
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+    vertical-align: top;
+  }
+
+  .rk-project-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .rk-project-card p {
+    line-height: 1.6;
+  }
+
+  .rk-project-card a {
+    font-weight: 700;
+  }
+
+  .rk-project-meta {
+    margin-top: 14px;
+  }
+
+  .rk-connect {
+    text-align: center;
+    margin: 20px 0 8px;
+  }
+
+  .rk-footer {
+    margin-top: 46px;
+    padding-top: 18px;
+    text-align: center;
+    color: var(--rk-muted);
+  }
+
+  @media (max-width: 700px) {
+    .rk-card,
+    .rk-project-card {
+      display: block;
+      width: auto !important;
+    }
+
+    .rk-terminal {
+      font-size: 0.8rem;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+  }
+</style>
+
+<div class="rk-wrap">
+
+<div class="rk-bio">
+
+> **"Not a genius. Just too stubborn to give up on bad ideas."**
+
+<div class="rk-terminal">
+  <div class="rk-line">IoT Security Researcher · Building SENTINEL 2.0</div>
+  <div class="rk-line">Full-Stack Developer · ESP32 to React and back</div>
+</div>
+
+</div>
+
+---
+
+## `./what-i-do`
+
+<table width="100%" cellspacing="14" cellpadding="0">
+  <tr>
+    <td width="33.33%" class="rk-card">
+      <h3>⚡ IoT + Security</h3>
+      <p>
+        I build honeypots that think. ESP32 devices running Cowrie,
+        MQTT pipelines, and 7+ ML models detecting anomalies in real time.
+      </p>
+    </td>
+    <td width="33.33%" class="rk-card rk-card-cyan">
+      <h3>🌐 Full-Stack</h3>
+      <p>
+        React 19, TypeScript, FastAPI, Docker — I build things that work
+        end-to-end. From database schema to pixel-perfect UI.
+      </p>
+    </td>
+    <td width="33.33%" class="rk-card rk-card-emerald">
+      <h3>🧠 Data + ML</h3>
+      <p>
+        PyTorch, scikit-learn, pandas. I train models on real data —
+        not toy datasets. Competition-grade, production-ready.
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## `./tech-stack`
+
+### Languages
+
+<p>
+  <img src="https://img.shields.io/badge/Python-1a1a2e?style=for-the-badge&logo=python&logoColor=white&color=1a1a2e" alt="Python">
+  <img src="https://img.shields.io/badge/Java-1a1a2e?style=for-the-badge&logo=openjdk&logoColor=white&color=1a1a2e" alt="Java">
+  <img src="https://img.shields.io/badge/C-1a1a2e?style=for-the-badge&logo=c&logoColor=white&color=1a1a2e" alt="C">
+  <img src="https://img.shields.io/badge/C++-1a1a2e?style=for-the-badge&logo=cplusplus&logoColor=white&color=1a1a2e" alt="C++">
+  <img src="https://img.shields.io/badge/TypeScript-1a1a2e?style=for-the-badge&logo=typescript&logoColor=white&color=1a1a2e" alt="TypeScript">
+  <img src="https://img.shields.io/badge/JavaScript-1a1a2e?style=for-the-badge&logo=javascript&logoColor=white&color=1a1a2e" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML5-1a1a2e?style=for-the-badge&logo=html5&logoColor=white&color=1a1a2e" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS3-1a1a2e?style=for-the-badge&logo=css3&logoColor=white&color=1a1a2e" alt="CSS">
+  <img src="https://img.shields.io/badge/Bash-1a1a2e?style=for-the-badge&logo=gnubash&logoColor=white&color=1a1a2e" alt="Bash">
+</p>
+
+### Frontend
+
+<p>
+  <img src="https://img.shields.io/badge/React-1a1a2e?style=for-the-badge&logo=react&logoColor=white&color=1a1a2e" alt="React">
+  <img src="https://img.shields.io/badge/Vite-1a1a2e?style=for-the-badge&logo=vite&logoColor=white&color=1a1a2e" alt="Vite">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-1a1a2e?style=for-the-badge&logo=tailwindcss&logoColor=white&color=1a1a2e" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Three.js-1a1a2e?style=for-the-badge&logo=threedotjs&logoColor=white&color=1a1a2e" alt="Three.js">
+  <img src="https://img.shields.io/badge/shadcn%2Fui-1a1a2e?style=for-the-badge&logo=shadcnui&logoColor=white&color=1a1a2e" alt="shadcn/ui">
+  <img src="https://img.shields.io/badge/Zustand-1a1a2e?style=for-the-badge&logo=react&logoColor=white&color=1a1a2e" alt="Zustand">
+</p>
+
+### Backend
+
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-1a1a2e?style=for-the-badge&logo=fastapi&logoColor=white&color=1a1a2e" alt="FastAPI">
+  <img src="https://img.shields.io/badge/SQLAlchemy-1a1a2e?style=for-the-badge&logo=sqlalchemy&logoColor=white&color=1a1a2e" alt="SQLAlchemy">
+  <img src="https://img.shields.io/badge/Node.js-1a1a2e?style=for-the-badge&logo=nodedotjs&logoColor=white&color=1a1a2e" alt="Node.js">
+  <img src="https://img.shields.io/badge/REST_APIs-1a1a2e?style=for-the-badge&logo=fastapi&logoColor=white&color=1a1a2e" alt="REST APIs">
+</p>
+
+### AI / ML
+
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-1a1a2e?style=for-the-badge&logo=pytorch&logoColor=white&color=1a1a2e" alt="PyTorch">
+  <img src="https://img.shields.io/badge/scikit--learn-1a1a2e?style=for-the-badge&logo=scikitlearn&logoColor=white&color=1a1a2e" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/pandas-1a1a2e?style=for-the-badge&logo=pandas&logoColor=white&color=1a1a2e" alt="pandas">
+  <img src="https://img.shields.io/badge/matplotlib-1a1a2e?style=for-the-badge&logo=python&logoColor=white&color=1a1a2e" alt="matplotlib">
+  <img src="https://img.shields.io/badge/OpenCV-1a1a2e?style=for-the-badge&logo=opencv&logoColor=white&color=1a1a2e" alt="OpenCV">
+</p>
+
+### IoT / Hardware
+
+<p>
+  <img src="https://img.shields.io/badge/ESP32-1a1a2e?style=for-the-badge&logo=espressif&logoColor=white&color=1a1a2e" alt="ESP32">
+  <img src="https://img.shields.io/badge/Raspberry_Pi-1a1a2e?style=for-the-badge&logo=raspberrypi&logoColor=white&color=1a1a2e" alt="Raspberry Pi">
+  <img src="https://img.shields.io/badge/MQTT-1a1a2e?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white&color=1a1a2e" alt="MQTT">
+  <img src="https://img.shields.io/badge/Arduino_IDE-1a1a2e?style=for-the-badge&logo=arduino&logoColor=white&color=1a1a2e" alt="Arduino IDE">
+  <img src="https://img.shields.io/badge/PlatformIO-1a1a2e?style=for-the-badge&logo=platformio&logoColor=white&color=1a1a2e" alt="PlatformIO">
+  <img src="https://img.shields.io/badge/Cowrie-1a1a2e?style=for-the-badge&logo=linux&logoColor=white&color=1a1a2e" alt="Cowrie">
+</p>
+
+### DevOps
+
+<p>
+  <img src="https://img.shields.io/badge/Docker-1a1a2e?style=for-the-badge&logo=docker&logoColor=white&color=1a1a2e" alt="Docker">
+  <img src="https://img.shields.io/badge/Git-1a1a2e?style=for-the-badge&logo=git&logoColor=white&color=1a1a2e" alt="Git">
+  <img src="https://img.shields.io/badge/Linux-1a1a2e?style=for-the-badge&logo=linux&logoColor=white&color=1a1a2e" alt="Linux">
+  <img src="https://img.shields.io/badge/CI%2FCD-1a1a2e?style=for-the-badge&logo=githubactions&logoColor=white&color=1a1a2e" alt="CI/CD">
+  <img src="https://img.shields.io/badge/MQTT_Explorer-1a1a2e?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white&color=1a1a2e" alt="MQTT Explorer">
+</p>
+
+### Security
+
+<p>
+  <img src="https://img.shields.io/badge/Nmap-1a1a2e?style=for-the-badge&logo=nmap&logoColor=white&color=1a1a2e" alt="Nmap">
+  <img src="https://img.shields.io/badge/Wireshark-1a1a2e?style=for-the-badge&logo=wireshark&logoColor=white&color=1a1a2e" alt="Wireshark">
+  <img src="https://img.shields.io/badge/Burp_Suite-1a1a2e?style=for-the-badge&logo=portswigger&logoColor=white&color=1a1a2e" alt="Burp Suite">
+  <img src="https://img.shields.io/badge/Metasploit-1a1a2e?style=for-the-badge&logo=metasploit&logoColor=white&color=1a1a2e" alt="Metasploit">
+  <img src="https://img.shields.io/badge/OWASP-1a1a2e?style=for-the-badge&logo=owasp&logoColor=white&color=1a1a2e" alt="OWASP">
 </p>
 
 ---
 
-## `whoami`
-
-```text
-Rakshith S. / heyItsRocky
-
-CSE • IoT • Cybersecurity • AI
-
-I build things that are meant to exist outside a tutorial.
-
-→ cybersecurity systems
-→ embedded & IoT platforms
-→ offline-first systems
-→ AI-assisted tools
-→ Linux environments
-→ hardware + software prototypes
-→ hackathon projects that actually work
-```
-
-## `./currently-building`
-
-| Project | What it is |
-| --- | --- |
-| **SENTINEL** | Raspberry Pi-based threat intelligence platform |
-| **TrapBox** | Portable honeypot / deception system |
-| **ECHO-PI** | Offline communication & education platform for disaster zones |
-| **FarmShield** | AI-powered plant disease identification system |
-| **VeriPass** | Digital Product Passport platform |
-| **TRACE//MANTHAN** | OSINT-based CTF experience |
-
-## `tech`
+## `./github-stats`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,linux,bash,git,github,docker,fastapi,react,flutter,arduino,raspberrypi,postgres,mongodb,vercel" alt="Technology stack">
-</p>
-
-<p align="center"><sub>Python · C/C++ · Linux · Bash · Git · FastAPI · React · Flutter · Raspberry Pi · ESP32 · Docker · AI/ML</sub></p>
-
-## `github`
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=heyItsRocky&show_icons=true&theme=tokyo-night&hide_border=true&bg_color=0B1120&title_color=7C3AED&icon_color=22D3EE&text_color=E5E7EB" alt="GitHub Stats" width="49%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=heyItsRocky&layout=compact&theme=tokyo-night&hide_border=true&bg_color=0B1120&title_color=7C3AED&text_color=E5E7EB" alt="Top Languages" width="49%">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=heyItsRocky&show_icons=true&theme=radical&hide_border=true&count_private=true"
+    alt="Rakshith's GitHub Stats"
+    width="48%"
+  >
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=heyItsRocky&theme=radical&hide_border=true"
+    alt="Rakshith's GitHub Streak"
+    width="48%"
+  >
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=heyItsRocky&theme=tokyo-night&hide_border=true&background=0B1120&stroke=7C3AED&ring=22D3EE&fire=10B981&currStreakLabel=E5E7EB" alt="GitHub Streak" width="60%">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=heyItsRocky&layout=compact&theme=radical&hide_border=true"
+    alt="Top Languages"
+    width="42%"
+  >
 </p>
 
-## `activity`
+---
+
+## `./featured-projects`
+
+<table width="100%" cellspacing="14" cellpadding="0">
+  <tr>
+    <td width="33.33%" class="rk-project-card">
+      <h3>
+        <a href="https://github.com/heyItsRocky/SENTINEL_2.O">SENTINEL 2.0</a>
+      </h3>
+
+      <p>
+        IoT security honeypot with real-time ML anomaly detection.
+        My flagship build — hardware, telemetry, deception, and intelligence in one system.
+      </p>
+
+      <div class="rk-project-meta">
+        <img src="https://img.shields.io/badge/Python-1a1a2e?style=for-the-badge&logo=python&logoColor=white&color=1a1a2e" alt="Python">
+        <img src="https://img.shields.io/badge/ESP32-1a1a2e?style=for-the-badge&logo=espressif&logoColor=white&color=1a1a2e" alt="ESP32">
+        <img src="https://img.shields.io/badge/MQTT-1a1a2e?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white&color=1a1a2e" alt="MQTT">
+        <img src="https://img.shields.io/badge/PyTorch-1a1a2e?style=for-the-badge&logo=pytorch&logoColor=white&color=1a1a2e" alt="PyTorch">
+      </div>
+
+      <br>
+
+      <a href="https://github.com/heyItsRocky/SENTINEL_2.O">View Repo →</a>
+    </td>
+
+    <td width="33.33%" class="rk-project-card">
+      <h3>
+        <a href="https://github.com/heyItsRocky?tab=repositories">SIH Portal</a>
+      </h3>
+
+      <p>
+        Smart India Hackathon team collaboration platform built around a modern,
+        scalable frontend architecture and reusable component system.
+      </p>
+
+      <div class="rk-project-meta">
+        <img src="https://img.shields.io/badge/React-1a1a2e?style=for-the-badge&logo=react&logoColor=white&color=1a1a2e" alt="React">
+        <img src="https://img.shields.io/badge/TypeScript-1a1a2e?style=for-the-badge&logo=typescript&logoColor=white&color=1a1a2e" alt="TypeScript">
+        <img src="https://img.shields.io/badge/Vite-1a1a2e?style=for-the-badge&logo=vite&logoColor=white&color=1a1a2e" alt="Vite">
+        <img src="https://img.shields.io/badge/Tailwind-1a1a2e?style=for-the-badge&logo=tailwindcss&logoColor=white&color=1a1a2e" alt="Tailwind CSS">
+      </div>
+
+      <br>
+
+      <a href="https://github.com/heyItsRocky?tab=repositories">View Repo →</a>
+    </td>
+
+    <td width="33.33%" class="rk-project-card">
+      <h3>
+        <a href="https://github.com/heyItsRocky/Datathon-2026-ULTRON">KSP Datathon</a>
+      </h3>
+
+      <p>
+        Karnataka State Police crime data analysis focused on extracting patterns,
+        building models, and turning real-world data into useful intelligence.
+      </p>
+
+      <div class="rk-project-meta">
+        <img src="https://img.shields.io/badge/Python-1a1a2e?style=for-the-badge&logo=python&logoColor=white&color=1a1a2e" alt="Python">
+        <img src="https://img.shields.io/badge/pandas-1a1a2e?style=for-the-badge&logo=pandas&logoColor=white&color=1a1a2e" alt="pandas">
+        <img src="https://img.shields.io/badge/scikit--learn-1a1a2e?style=for-the-badge&logo=scikitlearn&logoColor=white&color=1a1a2e" alt="scikit-learn">
+        <img src="https://img.shields.io/badge/matplotlib-1a1a2e?style=for-the-badge&logo=python&logoColor=white&color=1a1a2e" alt="matplotlib">
+      </div>
+
+      <br>
+
+      <a href="https://github.com/heyItsRocky/Datathon-2026-ULTRON">View Repo →</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## `./other-builds`
+
+<table width="100%" cellspacing="14" cellpadding="0">
+  <tr>
+    <td width="50%" class="rk-card rk-card-cyan">
+      <h3>🤖 Gesture-Controlled Face-Tracking Robot</h3>
+      <p>
+        A physical robotics system combining computer vision, gesture input,
+        Arduino control, and servo actuation.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-1a1a2e?style=for-the-badge&logo=python&logoColor=white&color=1a1a2e" alt="Python">
+        <img src="https://img.shields.io/badge/OpenCV-1a1a2e?style=for-the-badge&logo=opencv&logoColor=white&color=1a1a2e" alt="OpenCV">
+        <img src="https://img.shields.io/badge/Arduino-1a1a2e?style=for-the-badge&logo=arduino&logoColor=white&color=1a1a2e" alt="Arduino">
+      </p>
+    </td>
+
+    <td width="50%" class="rk-card rk-card-emerald">
+      <h3>☀️ Surya-Astra</h3>
+      <p>
+        Interactive 3D solar system visualization built for the web using
+        React, TypeScript, and WebGL-powered rendering.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/React-1a1a2e?style=for-the-badge&logo=react&logoColor=white&color=1a1a2e" alt="React">
+        <img src="https://img.shields.io/badge/TypeScript-1a1a2e?style=for-the-badge&logo=typescript&logoColor=white&color=1a1a2e" alt="TypeScript">
+        <img src="https://img.shields.io/badge/Three.js-1a1a2e?style=for-the-badge&logo=threedotjs&logoColor=white&color=1a1a2e" alt="Three.js">
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%" class="rk-card">
+      <h3>💳 x402 Mini-Store</h3>
+      <p>
+        Web3 micropayment gateway exploring machine-to-machine payments with
+        FastAPI, Algorand, Docker, and the x402 payment protocol.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-1a1a2e?style=for-the-badge&logo=fastapi&logoColor=white&color=1a1a2e" alt="FastAPI">
+        <img src="https://img.shields.io/badge/Algorand-1a1a2e?style=for-the-badge&logo=algorand&logoColor=white&color=1a1a2e" alt="Algorand">
+        <img src="https://img.shields.io/badge/Docker-1a1a2e?style=for-the-badge&logo=docker&logoColor=white&color=1a1a2e" alt="Docker">
+      </p>
+    </td>
+
+    <td width="50%" class="rk-card">
+      <h3>🔬 What I'm really interested in</h3>
+      <p>
+        Systems that sit at the edge, collect messy real-world signals,
+        reason about what they see, and react without needing everything
+        to live in the cloud.
+      </p>
+      <p>
+        <strong style="color:#22D3EE;">IoT Security</strong> ·
+        <strong style="color:#7C3AED;">Edge AI</strong> ·
+        <strong style="color:#10B981;">Autonomous Systems</strong>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## `./activity`
 
 <p align="center">
-  <img src="./dist/github-jet.svg" alt="GitHub contribution heatmap" width="100%">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=heyItsRocky&theme=redical&hide_border=true"
+    alt="GitHub Contribution Graph"
+    width="100%"
+  >
 </p>
 
-## `connect`
+---
+
+## `./connect`
 
 <p align="center">
-  <a href="https://github.com/heyItsRocky"><img src="https://img.shields.io/badge/GitHub-0B1120?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0B1120?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"></a>
+  <a href="https://github.com/heyItsRocky">
+    <img src="https://img.shields.io/badge/GitHub-heyItsRocky-1a1a2e?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://x.com/iamRaksh4671">
+    <img src="https://img.shields.io/badge/Twitter%2FX-%40iamRaksh4671-1a1a2e?style=flat-square&logo=x&logoColor=white" alt="Twitter/X">
+  </a>
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-1a1a2e?style=flat-square&logo=gmail&logoColor=white" alt="Email">
+  </a>
 </p>
 
-<p align="center"><samp>stay curious. build dangerous things responsibly.</samp></p>
+<p align="center">
+  <samp>Bangalore, India · CSE (IoT & Cybersecurity) · Rocky</samp>
+</p>
+
+---
+
+<div class="rk-footer">
+
+<p align="center">
+  <em>Building things that talk to hardware and think for themselves.</em>
+</p>
+
+</div>
+</div>
