@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-    <img alt="Rakshith S — IoT & Cybersecurity" src="./dark.svg" style="width:100%; max-width:980px; margin:0 auto; display:block;">
+    <source media="(prefers-color-scheme: dark)" srcset="./ascii-art.svg">
+    <img alt="Rakshith S — IoT & Cybersecurity" src="./ascii-art.svg" style="width:100%; max-width:980px; margin:0 auto; display:block;">
   </picture>
 </p>
 
