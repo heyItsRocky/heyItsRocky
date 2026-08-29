@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="72" viewBox="0 0 980 72" role="img" aria-labelledby="title desc">
+  <title id="title">Rakshith S profile roles</title>
+  <desc id="desc">IoT Security Researcher building SENTINEL 2.0. Full-Stack Developer from ESP32 to React and back.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <style>
+      .t{font:600 18px 'Courier New',Consolas,monospace;fill:url(#g)}
+      .c{fill:#22D3EE}
+      @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+      .cursor{animation:blink .8s steps(1) infinite}
+    </style>
+  </defs>
+  <rect width="980" height="72" rx="12" fill="#0B1120"/>
+  <text x="22" y="30" class="t">IoT Security Researcher · Building SENTINEL 2.0</text>
+  <text x="22" y="57" class="t">Full-Stack Developer · ESP32 to React and back</text>
+  <rect x="645" y="14" width="2" height="20" class="c cursor"/>
+  <rect x="525" y="41" width="2" height="20" class="c cursor"/>
+</svg>
