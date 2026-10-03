@@ -8,7 +8,12 @@
 
 IoT security researcher and full-stack developer, studying CSE (IoT & Cybersecurity) in Bangalore. I build honeypots that think: ESP32 devices running Cowrie, MQTT pipelines, and 7+ ML models detecting anomalies in real time. On the web side I work with React 19, TypeScript, FastAPI and Docker, from database schema to pixel-perfect UI. I train models on real data, not toy datasets.
 
-Shipped **SENTINEL 2.0**. Up next: **CyberPixel** and **SIH 2026 Round 2** (Mine Subsidence + Anti-Drone).
+Shipped **SENTINEL 2.0**.
+
+## >> Currently
+
+- **Building:** CyberPixel and the SIH 2026 Round 2 entries.
+- **Looking for:** internship opportunities in IoT / security engineering.
 
 ## >> Tech stack
 
