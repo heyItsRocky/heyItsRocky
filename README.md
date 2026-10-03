@@ -79,16 +79,16 @@ Shipped **SENTINEL 2.0**. Up next: **CyberPixel** and **SIH 2026 Round 2** (Mine
 
 ## >> Projects
 
-| Project | Description |
-| ------- | ----------- |
-| **[SENTINEL 2.0](https://github.com/heyItsRocky/SENTINEL_2.O)** | IoT security honeypot with real-time ML anomaly detection: hardware, telemetry, deception and intelligence in one system |
-| **[VeriPass](https://github.com/heyItsRocky/VeriPass)** | Product authenticity and supply-chain verification on Algorand, using x402 micropayments |
-| **[ECHO-PI](https://github.com/heyItsRocky/ECHO-PI)** | Offline satellite project |
-| **[KSP Datathon](https://github.com/heyItsRocky/Datathon-2026-ULTRON)** | Karnataka State Police crime data analysis: patterns, models and intelligence from real data |
-| **[Surya-Astra](https://github.com/heyItsRocky/surya-astra)** | Interactive 3D solar system for the web, built with React, TypeScript and Three.js |
-| **[CyberPixel](https://github.com/heyItsRocky/CyberPixel)** `upcoming` | Story-driven cybersecurity game in Minecraft |
-| **[SIH 2026: Mine Subsidence](https://github.com/heyItsRocky/SIH-2026-Round-2/blob/main/01_IDEA_1_MINE_SUBSIDENCE/README.md)** `upcoming` | SIH26025 (Ministry of Coal / Coal India): AI-enabled real-time mine subsidence monitoring and early warning on a Raspberry Pi + ESP32 mesh |
-| **[SIH 2026: Anti-Drone System](https://github.com/heyItsRocky/SIH-2026-Round-2)** `upcoming` | SIH26050 (DRDO): high altitude performance optimization and robust design of an anti-drone system |
+| Project | Status | Stack | Description |
+| ------- | ------ | ----- | ----------- |
+| **[SENTINEL 2.0](https://github.com/heyItsRocky/SENTINEL_2.O)** | Shipped | Python, Raspberry Pi, ESP32, MQTT | IoT security honeypot with real-time ML anomaly detection: hardware, telemetry, deception and intelligence in one system |
+| **[VeriPass](https://github.com/heyItsRocky/VeriPass)** | Shipped | Hono, React, Algorand, x402 | Product authenticity and supply-chain verification on Algorand, using x402 micropayments |
+| **[ECHO-PI](https://github.com/heyItsRocky/ECHO-PI)** | Shipped | React, Flask, Ollama, Kiwix | Offline emergency and education assistant: English-to-Kannada translation, AI chat, SOS alerts and offline Wikipedia for areas with no connectivity |
+| **[KSP Datathon](https://github.com/heyItsRocky/Datathon-2026-ULTRON)** | Shipped | React 19, TypeScript, Python, scikit-learn | Karnataka State Police crime data analysis: patterns, models and intelligence from real data |
+| **[Surya-Astra](https://github.com/heyItsRocky/surya-astra)** | Shipped | Next.js, React Three Fiber, FastAPI, TypeScript | Solar flare nowcasting and forecasting dashboard for ISRO Bharatiya Antriksh Hackathon 2026, built on Aditya-L1 X-ray data |
+| **[CyberPixel](https://github.com/heyItsRocky/CyberPixel)** | In progress | Minecraft, Fabric, Java | Story-driven cybersecurity game in Minecraft |
+| **[SIH 2026: Mine Subsidence](https://github.com/heyItsRocky/SIH-2026-Round-2/blob/main/01_IDEA_1_MINE_SUBSIDENCE/README.md)** | Upcoming | Raspberry Pi, ESP32, MQTT, AI/ML | SIH26025 (Ministry of Coal / Coal India): AI-enabled real-time mine subsidence monitoring and early warning on a Raspberry Pi + ESP32 mesh |
+| **[SIH 2026: Anti-Drone System](https://github.com/heyItsRocky/SIH-2026-Round-2)** | Upcoming | Raspberry Pi, ESP32, MQTT | SIH26050 (DRDO): high altitude performance optimization and robust design of an anti-drone system |
 
 ## >> Contribution Snake
 
