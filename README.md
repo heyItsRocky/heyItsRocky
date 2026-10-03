@@ -1,16 +1,16 @@
-## >> IoT & Cybersecurity Portfolio
+## >> Building things that sit at the edge
 
 ![Rakshith S — IoT & Cybersecurity](https://github.com/heyItsRocky/heyItsRocky/raw/main/dark.svg)
 
 > **"Not a genius. Just too stubborn to give up on bad ideas."**
 
-## * About Me
+## >> About Me
 
 IoT security researcher and full-stack developer, studying CSE (IoT & Cybersecurity) in Bangalore. I build honeypots that think: ESP32 devices running Cowrie, MQTT pipelines, and 7+ ML models detecting anomalies in real time. On the web side I work with React 19, TypeScript, FastAPI and Docker, from database schema to pixel-perfect UI. I train models on real data, not toy datasets.
 
 Shipped **SENTINEL 2.0**. Up next: **CyberPixel** and **SIH 2026 Round 2** (Mine Subsidence + Anti-Drone).
 
-## [!] Security
+## >> Security
 
 ![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
@@ -25,7 +25,7 @@ Shipped **SENTINEL 2.0**. Up next: **CyberPixel** and **SIH 2026 Round 2** (Mine
 
 </details>
 
-## :: Languages
+## >> Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
@@ -43,7 +43,7 @@ Shipped **SENTINEL 2.0**. Up next: **CyberPixel** and **SIH 2026 Round 2** (Mine
 
 </details>
 
-## [*] Web & Backend
+## >> Web & Backend
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -62,7 +62,7 @@ Shipped **SENTINEL 2.0**. Up next: **CyberPixel** and **SIH 2026 Round 2** (Mine
 
 </details>
 
-## [x] IoT & Hardware
+## >> IoT & Hardware
 
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
@@ -77,7 +77,7 @@ Shipped **SENTINEL 2.0**. Up next: **CyberPixel** and **SIH 2026 Round 2** (Mine
 
 </details>
 
-## [_] AI/ML & DevOps
+## >> AI/ML & DevOps
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
@@ -108,14 +108,14 @@ Shipped **SENTINEL 2.0**. Up next: **CyberPixel** and **SIH 2026 Round 2** (Mine
 | **[SIH 2026: Mine Subsidence](https://github.com/heyItsRocky/SIH-2026-Round-2/blob/main/01_IDEA_1_MINE_SUBSIDENCE/README.md)** `upcoming` | SIH26025 (Ministry of Coal / Coal India): AI-enabled real-time mine subsidence monitoring and early warning on a Raspberry Pi + ESP32 mesh |
 | **[SIH 2026: Anti-Drone System](https://github.com/heyItsRocky/SIH-2026-Round-2)** `upcoming` | SIH26050 (DRDO): high altitude performance optimization and robust design of an anti-drone system |
 
-## ~> Contribution Snake
+## >> Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heyItsRocky/heyItsRocky/output/github-contribution-grid-snake-dark.svg">
   <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/heyItsRocky/heyItsRocky/output/github-contribution-grid-snake.svg">
 </picture>
 
-## <-> Connect with me
+## >> Connect with me
 
 [![GitHub](https://img.shields.io/badge/GitHub-heyItsRocky-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/heyItsRocky)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rakshith--s--1a2b98383-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakshith-s-1a2b98383/)
