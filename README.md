@@ -118,9 +118,9 @@ Shipped **SENTINEL 2.0**. Up next: **CyberPixel** and **SIH 2026 Round 2** (Mine
 ## <-> Connect with me
 
 [![GitHub](https://img.shields.io/badge/GitHub-heyItsRocky-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/heyItsRocky)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakshith-s-1a2b98383/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rakshith--s--1a2b98383-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakshith-s-1a2b98383/)
 [![X](https://img.shields.io/badge/X-iamRaksh4671-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/iamRaksh4671)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raksh4671iit@gmail.com)
+[![Email](https://img.shields.io/badge/Email-raksh4671iit@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raksh4671iit@gmail.com)
 
 ---
 
